@@ -6,6 +6,76 @@
   <title>HTML Project</title>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <h1>IT Team Members</h1>
+  </header>
+  <main>
+  <h2>Add New Member</h2>
+  <form>
+    <label for="first">
+      First Name <br> <br>
+      <input type="text" placeholder="John" name="name goes here" id="first">
+    </label>
+    <br><br>
+    <label for="last">
+      Last Name <br> <br>
+      <input type="text" placeholder="Doe" name="name goes here" id="last">
+    </label>
+    <br><br>
+    <label for="role">
+      Role <br> <br>
+      <input type="text" placeholder="Developer" name="name goes here" id="role">
+    </label>
+    <br><br>
+    <label for="email">
+      Email <br> <br>
+      <input type="text" placeholder="email@email.com" name="name goes here" id="email">
+    </label>
+    <br>
+    <button type="add">
+      Add Member
+    </button>
+  </form>
+  <br>
+  <h2>Team Members</h2>
+  <br>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Role</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>Developer</td>
+      <td>johndoe@npower.net</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Doe</td>
+      <td>Designer</td>
+      <td>janedoe@npower.net</td>
+    </tr>
+    <tr>
+      <td>Mike</td>
+      <td>Smith</td>
+      <td>Tester</td>
+      <td>miketester@npower.net</td>
+    </tr>
+  </table>
 </body>
+</main>
+<br>
+<footer>
+  <aside>
+    NPower © 2024
+  </aside>
+</footer>
 </html>
